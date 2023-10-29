@@ -1,0 +1,14 @@
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "John Doe - Lead QA"
+    email: "john@gamil.com"
+  onCallSupport:
+    - (555) 562-1234
+    - (555) 523-1345
+
+spring:
+  config:
+    activate:
+      on-profile:
+        - "qa"

@@ -14,3 +14,20 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_prod.yml"
+      - "application_qa.yml"
+  profiles:
+    active:
+      - "qa"
+build:
+  version: "3.0"
+loans:
+  message: "Welcome to EazyBank Loans related local APIs "
+  contactDetails:
+    name: "John Doe - Developer"
+    email: "john@gamil.com"
+  onCallSupport:
+    - (555) 535-1234
+    - (555) 512-1345

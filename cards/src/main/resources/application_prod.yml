@@ -1,0 +1,14 @@
+cards:
+  message: "Welcome to EazyBank cards related Prod APIs "
+  contactDetails:
+    name: "John Doe - Product owner"
+    email: "john@gamil.com"
+  onCallSupport:
+    - (555) 134-1234
+    - (555) 124-1345
+
+spring:
+  config:
+    activate:
+      on-profile:
+        - "prod"

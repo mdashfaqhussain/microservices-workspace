@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - "prod"
+
+build:
+  version: "1.0"
+loans:
+  message: "Welcome to EazyBank Loans related Prod APIs "
+  contactDetails:
+    name: "John  - Prdocut Owner"
+    email: "john@gamil.com"
+  onCallSupport:
+    - (555) 535-1131
+    - (555) 512-1311

@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - "qa"
+build:
+  version: "2.0"
+loans:
+  message: "Welcome to EazyBank Loans related local APIs "
+  contactDetails:
+    name: "John  - Load QA"
+    email: "john@gamil.com"
+  onCallSupport:
+    - (555) 535-0581
+    - (555) 512-1850

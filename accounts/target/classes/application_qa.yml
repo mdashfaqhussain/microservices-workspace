@@ -1,0 +1,16 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related QA APIs "
+  contactDetails:
+    name: "Mohammed  -  QA Lead"
+    email: "mohammed@gmail.com"
+  onCallSupport:
+    - (555) 123-1234
+    - (555) 786-1345
+
+spring:
+  config:
+    activate:
+      on-profile: "qa"

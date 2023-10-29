@@ -1,0 +1,16 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related Prod APIs "
+  contactDetails:
+    name: "Ashfaq - Product owner"
+    email: "Ashfaq@gmail.com"
+  onCallSupport:
+    - (555) 823-1234
+    - (555) 211-1345
+
+spring:
+  config:
+    activate:
+      on-profile: "prod"
